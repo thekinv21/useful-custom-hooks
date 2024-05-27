@@ -1,0 +1,49 @@
+.spinner_square {
+	display: flex;
+	flex-direction: row;
+	width: 90px;
+	height: 120px;
+}
+
+.spinner_square > .square {
+	width: 17px;
+	height: 80px;
+	margin: auto auto;
+	border-radius: 4px;
+}
+
+.square_1 {
+	animation: square_anim 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0s
+		infinite;
+}
+
+.square_2 {
+	animation: square_anim 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 200ms
+		infinite;
+}
+
+.square_3 {
+	animation: square_anim 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 400ms
+		infinite;
+}
+
+@keyframes square_anim {
+	0% {
+		height: 80px;
+		background-color: #84cc16;
+	}
+	20% {
+		height: 80px;
+	}
+	40% {
+		height: 120px;
+		background-color: #84cc16;
+	}
+	80% {
+		height: 80px;
+	}
+	100% {
+		height: 80px;
+		background-color: #84cc16;
+	}
+}

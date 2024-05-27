@@ -17,6 +17,9 @@ dependencies:
   axios:
     specifier: ^1.7.2
     version: 1.7.2
+  classnames:
+    specifier: ^2.5.1
+    version: 2.5.1
   lucide-react:
     specifier: ^0.379.0
     version: 0.379.0(react@18.3.1)
@@ -1359,6 +1362,10 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.3
+
+  /classnames@2.5.1:
+    resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
+    dev: false
 
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
