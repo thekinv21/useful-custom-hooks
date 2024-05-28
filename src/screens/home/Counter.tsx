@@ -1,7 +1,18 @@
+import { useEffect } from 'react'
+
+import { useCustomRefetch } from '@/hooks/useCustomRefetch'
 import { useCustomState } from '@/hooks/useCustomState'
 
 export function Counter() {
 	const [count, setCount] = useCustomState<number>(0)
+
+	const { refetchQuery } = useCustomRefetch()
+
+	useEffect(() => {
+		refetchQuery.invalidateQueries({
+			queryKey: ['get-all-todos']
+		})
+	}, [count, refetchQuery])
 
 	return (
 		<div className='flex flex-row items-center justify-center gap-5'>
