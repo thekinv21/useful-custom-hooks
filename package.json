@@ -15,6 +15,7 @@
 		"@tanstack/react-query-devtools": "^5.40.0",
 		"axios": "^1.7.2",
 		"classnames": "^2.5.1",
+		"js-cookie": "^3.0.5",
 		"lucide-react": "^0.379.0",
 		"path": "^0.12.7",
 		"react": "^18.2.0",
@@ -26,6 +27,7 @@
 	"devDependencies": {
 		"@tanstack/eslint-plugin-query": "^5.35.6",
 		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
+		"@types/js-cookie": "^3.0.6",
 		"@types/react": "^18.2.66",
 		"@types/react-dom": "^18.2.22",
 		"@typescript-eslint/eslint-plugin": "^7.2.0",
